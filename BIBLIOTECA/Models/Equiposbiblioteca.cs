@@ -4,9 +4,9 @@ using Microsoft.Extensions.Options;
 
 namespace WebApiPractica.Models
 {
-    public class Equiposbiblioteca : DbContext
+    public class EquiposBiblioteca : DbContext
     {
-        public Equiposbiblioteca(DbContextOptions<Equiposbiblioteca> options) : base(options)
+        public EquiposBiblioteca(DbContextOptions<EquiposBiblioteca> options) : base(options)
         {
         }
         public DbSet<Autor> Autor { get; set; }
