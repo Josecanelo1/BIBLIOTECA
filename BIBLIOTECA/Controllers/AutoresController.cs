@@ -2,7 +2,7 @@ using System;
 
 namespace BIBLIOTECA.Controllers;
 
-public class BibilotecControllers
+public class AutoresController
 {
 
 }
